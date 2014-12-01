@@ -25,6 +25,18 @@ class Deck
         {
             Card newCard = is21 ? new TwentyOneCard(i, suit) : new Card(i, suit)
             cards.add(newCard)
+
+            // Same as...
+            //Card newCard
+            //if (is21)
+            //{
+            //    newCard = new TwentyOneCard(i, suit)
+            //}
+            //else
+            //{
+            //    newCard = new Card(i, suit)
+            //}
+            //cards.add(newCard)
         }
     }
 
